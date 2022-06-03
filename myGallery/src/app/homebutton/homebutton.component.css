@@ -1,0 +1,29 @@
+/* small view */
+button {
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  font-size: 20px;
+}
+button:active {
+  background-color: #f5f5f5;
+  color: #000;
+  border: 2px solid #ffff00;
+  box-shadow: 3px 3px 5px #d3d3d3;
+  font-size: 25px;
+  padding: 15px 25px ease-in;
+  font-weight: 600;
+}
+
+/* wide view */
+@media only screen and (min-width: 60rem) {
+  button:hover {
+    background-color: #f5f5f5;
+    color: #000;
+    border: 2px solid #ffff00;
+    box-shadow: 3px 3px 5px #d3d3d3;
+    font-size: 25px;
+    padding: 15px 25px ease-in;
+    font-weight: 600;
+  }
+}

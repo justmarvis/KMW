@@ -1,0 +1,10 @@
+.board{
+  width: 100%;
+  background-color: red;
+  padding: 5px 0px;
+}
+.note {
+  margin-left: 5px;
+  color: #fff;
+  /* text-shadow: 5px 1px 0px #000; */
+}
