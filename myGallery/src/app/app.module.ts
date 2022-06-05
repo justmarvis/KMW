@@ -8,6 +8,10 @@ import { HomebuttonComponent } from './homebutton/homebutton.component';
 import { HomeviewComponent } from './homeview/homeview.component';
 import { AppRoutingModule } from './app-routing.module';
 import { BoardComponent } from './board/board.component';
+import { CategoryComponent } from './category/category.component';
+import { UploadbuttonComponent } from './uploadbutton/uploadbutton.component';
+import { BackbuttonComponent } from './backbutton/backbutton.component';
+import { HomeheaderComponent } from './homeheader/homeheader.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +20,11 @@ import { BoardComponent } from './board/board.component';
     ThreedComponent,
     HomebuttonComponent,
     HomeviewComponent,
-    BoardComponent
+    BoardComponent,
+    CategoryComponent,
+    UploadbuttonComponent,
+    BackbuttonComponent,
+    HomeheaderComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,21 @@
+*{
+  margin-top: 10px;
+}
+
+/* small view */
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.cat {
+  margin-right: 20px;
+}
+
+/* wide view */
+@media only screen and (min-width: 60rem) {
+  .homeContainer {
+    display: flex;
+    flex-direction: row;
+  }
+}

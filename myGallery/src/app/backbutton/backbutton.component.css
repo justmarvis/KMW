@@ -1,0 +1,9 @@
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  text-shadow: 3px 3px 5px #d3d3d3;
+  font-weight: 600;
+}

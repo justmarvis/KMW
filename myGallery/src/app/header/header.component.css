@@ -39,6 +39,10 @@
   margin-top: 50%;
   margin-left: 50%;
 }
+.board {
+  position: fixed;
+  width: 100%;
+}
 
 /** wide view **/
 @media only screen and (min-width: 60rem) {
