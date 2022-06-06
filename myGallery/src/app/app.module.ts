@@ -12,6 +12,9 @@ import { CategoryComponent } from './category/category.component';
 import { UploadbuttonComponent } from './uploadbutton/uploadbutton.component';
 import { BackbuttonComponent } from './backbutton/backbutton.component';
 import { HomeheaderComponent } from './homeheader/homeheader.component';
+import { SigininComponent } from './siginin/siginin.component';
+import { SignupComponent } from './signup/signup.component';
+import { HomeprofiletabComponent } from './homeprofiletab/homeprofiletab.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { HomeheaderComponent } from './homeheader/homeheader.component';
     CategoryComponent,
     UploadbuttonComponent,
     BackbuttonComponent,
-    HomeheaderComponent
+    HomeheaderComponent,
+    SigininComponent,
+    SignupComponent,
+    HomeprofiletabComponent
   ],
   imports: [
     BrowserModule,
